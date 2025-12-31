@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  mpesa-app:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - CONSUMER_KEY=${CONSUMER_KEY}
+      - CONSUMER_SECRET=${CONSUMER_SECRET}
+      - PASSKEY=${PASSKEY}
+      - BUSINESS_SHORT_CODE=${BUSINESS_SHORT_CODE}
+      - CALLBACK_URL=${CALLBACK_URL}
+      - SANDBOX=${SANDBOX}
+      - FLASK_DEBUG=0
+      - PORT=5000
+    volumes:
+      - .:/app
+    restart: unless-stopped
