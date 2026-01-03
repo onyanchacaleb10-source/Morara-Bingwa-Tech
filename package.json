@@ -4,6 +4,8 @@
   "description": "A Flask-based service for initiating M-PESA STK Push payments via Safaricom's API.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "echo \"No dev script defined\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
