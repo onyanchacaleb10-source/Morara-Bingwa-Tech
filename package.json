@@ -1,0 +1,21 @@
+{
+  "name": "morara-bingwa-tech",
+  "version": "1.0.0",
+  "description": "A Flask-based service for initiating M-PESA STK Push payments via Safaricom's API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onyanchacaleb10-source/Morara-Bingwa-Tech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/onyanchacaleb10-source/Morara-Bingwa-Tech/issues"
+  },
+  "homepage": "https://github.com/onyanchacaleb10-source/Morara-Bingwa-Tech#readme"
+}
